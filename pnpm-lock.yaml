@@ -97,8 +97,8 @@ importers:
         version: 10.0.0
     devDependencies:
       '@event-calendar/core':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.4.0
+        version: 3.4.0
       '@event-calendar/day-grid':
         specifier: ^3.1.0
         version: 3.1.0
@@ -472,6 +472,9 @@ packages:
 
   '@event-calendar/core@3.1.0':
     resolution: {integrity: sha512-hz6jpFeFUEb/mOu2vFn96wBFYEDYHb8lPyDjlaHqD4E02OXnLb/ej0kRWMu5NnF4aE7UEKq648Lx3cbH1QJrIw==}
+
+  '@event-calendar/core@3.4.0':
+    resolution: {integrity: sha512-b7Kx214hRs6MNfRbnN/L29kgWsBI+Zv2KrU0Gp0H/alqN9yJR+6YNaqcaAo3NV4DiCo+9moBOlZ4KbbpZhnulQ==}
 
   '@event-calendar/day-grid@3.1.0':
     resolution: {integrity: sha512-koaIBZxYB+SrjvgvJmehFI4SrDqd4PdN8aPb+7f7HYWrFKA3SZmVr6WHaPTog34p4bFjMYiJC3gJfaNK/KhEpw==}
@@ -2737,6 +2740,10 @@ snapshots:
   '@eslint/object-schema@2.1.4': {}
 
   '@event-calendar/core@3.1.0':
+    dependencies:
+      svelte: 4.2.18
+
+  '@event-calendar/core@3.4.0':
     dependencies:
       svelte: 4.2.18
 
