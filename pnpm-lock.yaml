@@ -97,8 +97,8 @@ importers:
         version: 10.0.0
     devDependencies:
       '@event-calendar/core':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.6.1
+        version: 3.6.1
       '@event-calendar/day-grid':
         specifier: ^3.1.0
         version: 3.1.0
@@ -472,6 +472,9 @@ packages:
 
   '@event-calendar/core@3.1.0':
     resolution: {integrity: sha512-hz6jpFeFUEb/mOu2vFn96wBFYEDYHb8lPyDjlaHqD4E02OXnLb/ej0kRWMu5NnF4aE7UEKq648Lx3cbH1QJrIw==}
+
+  '@event-calendar/core@3.6.1':
+    resolution: {integrity: sha512-Q2ungvu3h/aZTf8bWDHUIja7Hxea2Et31riR+U8c95ZuCtwnLhxff1PSvrbGIOR1LPgZc9XYvPx91sM+Z/7Ybg==}
 
   '@event-calendar/day-grid@3.1.0':
     resolution: {integrity: sha512-koaIBZxYB+SrjvgvJmehFI4SrDqd4PdN8aPb+7f7HYWrFKA3SZmVr6WHaPTog34p4bFjMYiJC3gJfaNK/KhEpw==}
@@ -2234,6 +2237,10 @@ packages:
     resolution: {integrity: sha512-d0FdzYIiAePqRJEb90WlJDkjUEx42xhivxN8muUBmfZnP+tzUgz12DJ2hRJi8sIHCME7jeK1PTMgKPSfTd8JrA==}
     engines: {node: '>=16'}
 
+  svelte@4.2.19:
+    resolution: {integrity: sha512-IY1rnGr6izd10B0A8LqsBfmlT5OILVuZ7XsI0vdGPEvuonFV7NYEUK4dAkm9Zg2q0Um92kYjTpS1CAP3Nh/KWw==}
+    engines: {node: '>=16'}
+
   terser@5.31.1:
     resolution: {integrity: sha512-37upzU1+viGvuFtBo9NPufCb9dwM0+l9hMxYyWfBA+fbwrPqNJAhbZ6W47bBFnZHKHTUBnMvi87434qq+qnxOg==}
     engines: {node: '>=10'}
@@ -2739,6 +2746,10 @@ snapshots:
   '@event-calendar/core@3.1.0':
     dependencies:
       svelte: 4.2.18
+
+  '@event-calendar/core@3.6.1':
+    dependencies:
+      svelte: 4.2.19
 
   '@event-calendar/day-grid@3.1.0':
     dependencies:
@@ -4566,6 +4577,23 @@ snapshots:
   svelte-tiny-virtual-list@2.1.2: {}
 
   svelte@4.2.18:
+    dependencies:
+      '@ampproject/remapping': 2.3.0
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/trace-mapping': 0.3.25
+      '@types/estree': 1.0.5
+      acorn: 8.12.1
+      aria-query: 5.3.0
+      axobject-query: 4.0.0
+      code-red: 1.0.4
+      css-tree: 2.3.1
+      estree-walker: 3.0.3
+      is-reference: 3.0.2
+      locate-character: 3.0.0
+      magic-string: 0.30.10
+      periscopic: 3.1.0
+
+  svelte@4.2.19:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.4.15

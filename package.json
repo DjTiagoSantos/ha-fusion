@@ -12,7 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@event-calendar/core": "^3.1.0",
+		"@event-calendar/core": "^3.6.1",
 		"@event-calendar/day-grid": "^3.1.0",
 		"@event-calendar/list": "^3.1.0",
 		"@iconify/svelte": "^4.0.2",
