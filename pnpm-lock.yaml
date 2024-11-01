@@ -93,8 +93,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       youtubei.js:
-        specifier: ^10.0.0
-        version: 10.0.0
+        specifier: ^11.0.1
+        version: 11.0.1
     devDependencies:
       '@event-calendar/core':
         specifier: ^3.1.0
@@ -273,6 +273,9 @@ packages:
   '@babel/types@7.24.7':
     resolution: {integrity: sha512-XEFXSlxiG5td2EJRe8vOmRbaXVgfcBlszKujvVmWIK/UpywWljQCfzAv3RQCGujWQ1RD4YYWEAqDXfuJiy8f5Q==}
     engines: {node: '>=6.9.0'}
+
+  '@bufbuild/protobuf@2.2.2':
+    resolution: {integrity: sha512-UNtPCbrwrenpmrXuRwn9jYpPoweNXj8X5sMvYgsqYyaH8jQ6LfUJSk3dJLnBK+6sfYPrF4iAIo5sd5HQ+tg75A==}
 
   '@codemirror/autocomplete@6.17.0':
     resolution: {integrity: sha512-fdfj6e6ZxZf8yrkMHUSJJir7OJkHkZKaOZGzLWIYp2PZ3jd+d+UjG8zVPqJF6d3bKxkhvXTPan/UZ1t7Bqm0gA==}
@@ -1617,8 +1620,8 @@ packages:
     resolution: {integrity: sha512-U23pQPDnmYybVkYjObcuYMk43VRlMLLqLI+RdZy8s8WV8WsxO9SnqSroKaluuvcNOdCAlauKszDwd+umbot5Mg==}
     engines: {node: '>=18'}
 
-  jintr@1.1.0:
-    resolution: {integrity: sha512-Tu9wk3BpN2v+kb8yT6YBtue+/nbjeLFv4vvVC4PJ7oCidHKbifWhvORrAbQfxVIQZG+67am/mDagpiGSVtvrZg==}
+  jintr@3.0.2:
+    resolution: {integrity: sha512-5g2EBudeJFOopjAX4exAv5OCCW1DgUISfoioCsm1h9Q9HJ41LmnZ6J52PCsqBlQihsmp0VDuxreAVzM7yk5nFA==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -2416,8 +2419,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  youtubei.js@10.0.0:
-    resolution: {integrity: sha512-4Mmguxyw1TK1Co+gbx+41SFR55DR3OzMCdFW8OrSENjAjjOY9RDg7sKFbR+ZLsT3ga9AH1/nq+14KUItT9pPHQ==}
+  youtubei.js@11.0.1:
+    resolution: {integrity: sha512-ZsbOd+5XF2Ofi3FrLMfYd+f9g9H8xswlouFhjhOqbwT68dMJtX6CRGsHNj5VTFCR/+L/865x1lnUlllB2dDDTA==}
 
 snapshots:
 
@@ -2579,6 +2582,8 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
     optional: true
+
+  '@bufbuild/protobuf@2.2.2': {}
 
   '@codemirror/autocomplete@6.17.0(@codemirror/language@6.10.2)(@codemirror/state@6.4.1)(@codemirror/view@6.28.4)(@lezer/common@1.2.1)':
     dependencies:
@@ -3976,7 +3981,7 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jintr@1.1.0:
+  jintr@3.0.2:
     dependencies:
       acorn: 8.12.1
 
@@ -4731,8 +4736,9 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  youtubei.js@10.0.0:
+  youtubei.js@11.0.1:
     dependencies:
-      jintr: 1.1.0
+      '@bufbuild/protobuf': 2.2.2
+      jintr: 3.0.2
       tslib: 2.6.3
       undici: 5.28.4
